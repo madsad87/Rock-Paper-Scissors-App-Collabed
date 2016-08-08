@@ -1,0 +1,29 @@
+/* hey guys! add anything you want, change the code, so glad we are working together! */
+
+html,
+body,
+.cover {
+    height:  100%;
+}
+
+.cover {
+    background: url(img/black.jpg) top left no-repeat;
+    background-size: cover;
+    display: table;
+    width: 100%;
+    padding: 0 20%;
+    box-shadow: inset 0 0 100px #000;
+}
+
+.cover-text {
+    text-align: center;
+    color: white;
+    /* puts text in the middle no matter which device, if anyone is wondering :) */
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.cover-text .btn-primary,.btn-success {
+    margin: 15px;
+}
+
